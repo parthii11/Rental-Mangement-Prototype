@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Cars</title>
+    <style>
+        body { font-family: Arial; padding:40px; background:#f2f2f2; }
+        .car { padding:20px; background:white; margin-bottom:15px; border-radius:6px; }
+        button { padding:8px 12px; }
+    </style>
+</head>
+<body>
+
+<h2>Available Cars</h2>
+
+<div class="car">
+    <h3>Toyota Innova</h3>
+    <p>Price: ₹2500/day</p>
+    <button onclick="book()">Book Now</button>
+</div>
+
+<div class="car">
+    <h3>Hyundai i20</h3>
+    <p>Price: ₹1500/day</p>
+    <button onclick="book()">Book Now</button>
+</div>
+
+<script>
+function book() {
+    window.location.href = "booking.html";
+}
+</script>
+
+</body>
+</html>
